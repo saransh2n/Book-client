@@ -119,7 +119,7 @@ function editBook() {
       </button>
 
       {submitted ? (
-        <p>Data subitted successfully!</p>
+        <p>Data submitted successfully!</p>
       ) : (
         <form className="bookdetails" onSubmit={createBook}>
           <div className="col-1">
